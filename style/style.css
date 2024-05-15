@@ -4,12 +4,10 @@
     align-items: center;
     height: 100vh;
 }
-
 @font-face {
     font-family: "Copperplate";
     src: url(/assets/OPTICopperplate.otf);
 }
-
 body, html {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,17 +22,14 @@ nav {
     border-radius: 15px; 
     text-align: center; 
 }
-
 ul {
     list-style-type: none; 
     margin: 0;
     padding: 0;
 }
-
 li {
     display: inline; 
 }
-
 a {
     display: inline-block; 
     color: rgb(0, 0, 0); 
@@ -42,8 +37,6 @@ a {
     padding: 10px 20px; 
     
 }
-
-
 a:hover {
     background-color: #9396d3b6; 
     border-radius: 15px;
@@ -62,27 +55,41 @@ a:hover {
    background-clip: text;
    color: transparent;
 }
-
 .profile-info {
     text-align: center;
     padding: 20px;
 }
-
 .profile-info h2 {
     font-size: larger;
 }
-
 .social-icons {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
-
 .social-icons a {
     margin: 1px 0;
     background: linear-gradient(45deg, red, orange, indigo, violet, red);
     background-clip: text;
     color: transparent;
+}
+#github {
+    transition: 0.2s;
+}
+#github:hover {
+    transform: scale(1.2);
+}
+#discord {
+    transition: 0.2s;
+}
+#discord:hover {
+    transform: scale(1.2);
+}
+#tiktok {
+    transition: 0.2s;
+}
+#tiktok:hover {
+    transform: scale(1.2);
 }
 .profile-image {
     width: 150px;
@@ -90,7 +97,7 @@ a:hover {
     border-radius: 50%; 
     overflow: hidden; 
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 10px;
     display: flex; 
     align-items: center; 
     justify-content: center;
@@ -102,13 +109,66 @@ a:hover {
     object-fit: cover;
     position: flex;
 }
-
-.dc {
-    text-align: center;
-    margin-top: 5%;
-}
-
 .working {
     text-align: center;
     margin-top: 10%;
+}
+
+.dc {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .chat-container {
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  .message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .user {
+    background-color: #e6f2ff;
+  }
+  .other {
+    background-color: #f0f0f0;
+  }
+  input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  button {
+    width: 60px;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+.experimental {
+    text-align: center;
+    margin-top: 5%;
 }
