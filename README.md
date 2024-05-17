@@ -1,6 +1,6 @@
 # BlueofPhoenix Website
 
-[The BlueofPhoenix Website](https://blueofphoenix.github.com)
+[The BlueofPhoenix Website](https://blueofphoenix.github.io)
 
 > [!NOTE]
 > This site was built using [GitHub Pages](https://pages.github.com/).
